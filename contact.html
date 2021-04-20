@@ -8,15 +8,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
 </head>
 
 <body>
 
-    <header class="bg-dark">
+    <header class="bg-dark headbar">
 
         <a href="index.html">
-            <h1>Amar Mann</h1>
+            <h1 class="name">Amar Mann</h1>
         </a>
 
         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
@@ -28,55 +28,38 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="Home.html">Home</a>
+                        <a class="nav-link" href="home.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Contact.html">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Bio.html">Bio</a>
+                        <a class="nav-link" href="projects.html">Projects</a>
                     </li>
                 </ul>
             </div>
-
         </nav>
-
     </header>
 
     <div class="container">
-
-        <h2 class="text-dark">Contact</h1>
-            <br>
-
-            <h5><a
-                    href="mailto: amarmann92@gmail.com">amarmann92@gmail.com</a>
-                for a prompt response.</h5>
-
-            <br>
-
-            <form action="#">
-                <div class="form-group">
-                    <label for="firstName">First Name:</label>
-                    <input type="firstName" class="form-control" placeholder="Enter first name" id="firstName">
-                </div>
-
-                <div class="form-group">
-                    <label for="lastName">Last Name:</label>
-                    <input type="lastName" class="form-control" placeholder="Enter last name" id="lastName">
-                </div>
-
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" class="form-control" placeholder="Enter email address" id="email">
-                </div>
-
-                <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea class="form-control" rows="5" id="message"></textarea>
-                    <br>
-            </form>
+        <h2 class="text-dark contact-header">Contact Me:</h1>
+            <ul class="contact-list list-group list-group-flush">
+                <li class="contact list-group-item">
+                    <h5>
+                        Email: <a href="mailto: amarmann92@gmail.com">amarmann92@gmail.com</a>
+                    </h5>
+                </li>
+                <li class="contact list-group-item">
+                    <h5>
+                        Github: <a href="https://github.com/amarmann92">amarmann92</a>
+                    </h5>
+                </li>
+                <li class="contact list-group-item">
+                    <h5>
+                        LinkedIn: <a href=""></a>
+                    </h5>
+                </li>
+            </ul>
     </div>
-
 </body>
-
 </html>
